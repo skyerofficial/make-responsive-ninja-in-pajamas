@@ -1,0 +1,78 @@
+/*  HTML 5 and browser default style reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*  HTML 5 and browser default style reset */
+
+.nav {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+img{
+    max-width: 100%;
+    height: auto !important;
+    margin: 01.0351966873706% /*10 /966 */;
+    float: left;
+}
+
+
+.grid{
+    width: 875px;
+    margin: auto;
+    margin-top: 5px;
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap:  10px;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.grid img{
+    max-width: none;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 01.14285714285714%;
+    float: none;
+
+}
