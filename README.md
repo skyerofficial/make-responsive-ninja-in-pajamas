@@ -13,4 +13,4 @@ It is an Assigment for students to understand the concept of responsive web desi
 
 ## Resources
   * [9 basic principles of responsive web design](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
-  * `calc()` in CSS, Read at [CSS TRICKS]((https://css-tricks.com/a-couple-of-use-cases-for-calc/)
+  * `calc()` in CSS, Read at [CSS TRICKS](https://css-tricks.com/a-couple-of-use-cases-for-calc/)
