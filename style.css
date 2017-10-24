@@ -1,4 +1,30 @@
+/* For Mobile View */
+
+@media screen and (max-width: 425px)
+{
+	.grid{
+		column-count: 1;
+		column-gap: 5px;
+	}
+
+	.nav {
+    font-size: 7vw;
+    text-align: center;
+    margin: 3% auto;
+    font-family: 'Indie Flower', cursive;
+	}
+
+	img{
+		max-width: 100% !important;
+		height: auto !important;
+		margin: auto;
+	}
+}
+
 /*  HTML 5 and browser default style reset */
+
+@media screen and (min-width: 426px)
+{
 * {
   margin: 0;
   padding: 0;
@@ -41,9 +67,9 @@ table {
 /*  HTML 5 and browser default style reset */
 
 .nav {
-    font-size: 30px;
+    font-size: 7vw;
     text-align: center;
-    margin: 30px auto;
+    margin: 3% auto;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -56,9 +82,9 @@ img{
 
 
 .grid{
-    width: 875px;
+    width: 100%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 4%;
     line-height: 0;
     -webkit-column-count: 3;
     -webkit-column-gap:  10px;
@@ -74,5 +100,5 @@ img{
     height: auto !important;
     margin-bottom: 01.14285714285714%;
     float: none;
-
+}
 }
