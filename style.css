@@ -1,10 +1,14 @@
 /* For Mobile View */
 
-@media screen and (max-width: 425px)
+@media screen and (min-width: 320px)
 {
+
 	.grid{
 		column-count: 1;
 		column-gap: 5px;
+		width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.nav {
@@ -19,11 +23,37 @@
 		height: auto !important;
 		margin: auto;
 	}
+
+	@media only screen and (orientation : landscape)
+	{
+		.grid
+		{
+			column-count: 2;
+			column-gap: 5px;
+			width: 90vw;
+		}
+
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	.grid{
+		column-count: 2;
+		column-gap: 5px auto;
+	}
+
+	.nav{
+		font-size: 7vw;
+		text-align: center;
+		margin: 3% auto;
+		font-family: 'Indie Flower',cursive;
+	}
 }
 
 /*  HTML 5 and browser default style reset */
 
-@media screen and (min-width: 426px)
+@media screen and (min-width: 992px)
 {
 * {
   margin: 0;
@@ -82,7 +112,7 @@ img{
 
 
 .grid{
-    width: 100%;
+    width: 80vw;
     margin: auto;
     margin-top: 4%;
     line-height: 0;
